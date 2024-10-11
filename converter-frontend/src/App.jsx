@@ -11,7 +11,7 @@ import {
     TextField,
 } from "@mui/material";
 import axios from "axios";
-import {currencyMapping} from "./Components/currencyMapping.js";
+import {currencyMapping} from "./constants/currencyMapping.js";
 import SwapHorizIcon from '@mui/icons-material/SwapHoriz';
 import dayjs from 'dayjs';
 import {LocalizationProvider} from '@mui/x-date-pickers/LocalizationProvider';
